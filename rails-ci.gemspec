@@ -38,5 +38,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", ">= 12.3.3"
 
   # Used to output detailed results for Rails-CI to parse when using minitest:
-  spec.add_runtime_dependency "minitest-reporters"
+  spec.add_runtime_dependency "minitest-reporters", ">=1.4"
 end
